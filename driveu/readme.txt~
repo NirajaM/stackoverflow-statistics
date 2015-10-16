@@ -1,0 +1,5 @@
+To run the project please check the following thing 
+
+1) Specify mysql database credentials in conf/db.properties
+
+2) Url to populate data to the db http://localhost:8080/driveu/rest/driveu/populate 
