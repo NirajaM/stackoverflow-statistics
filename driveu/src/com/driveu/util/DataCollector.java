@@ -140,7 +140,7 @@ public class DataCollector {
 			count++;
 			if ((count % TagConstants.REQ_COUNT) == 0) {
 				try {
-					Thread.sleep(90000);
+					Thread.sleep(2000);
 					count = 1;
 				} catch (InterruptedException e) {
 					logger.error(e.getMessage());
